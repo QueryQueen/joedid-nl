@@ -56,6 +56,15 @@ var PATHS = {
   ]
 };
 
+var surge = require('gulp-surge')
+
+gulp.task('deploy', ['build'], function () {
+  return surge({
+    project: './dist',         // Path to your static build directory
+    domain: 'joedid.nl'  // Your domain or Surge subdomain
+  })
+})
+
 // Delete the "dist" folder
 // This happens every time a build starts
 gulp.task('clean', function(done) {

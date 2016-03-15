@@ -1,140 +1,113 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation | Welcome</title>
-<!-- <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
- --></head>
-<body>
- 
 <div class="top-bar">
-<div class="top-bar-left">
-<ul class="menu">
-<!-- <li class="menu-text">Yeti Agency</li> -->
-</ul>
+	<div class="top-bar-left">
+		<ul class="menu">
+		</ul>
+	</div>
 </div>
-<!-- <div class="top-bar-right">
-<ul class="menu">
-<li><a href="#">One</a></li>
-<li><a href="#">Two</a></li>
-<li><a href="#">Three</a></li>
-<li><a href="#">Four</a></li>
-</ul> -->
-<!-- </div> -->
-</div>
-
 <!-- title -->
-<div class="row">
-  <div class="large-12 columns title">
-    <h1>Awesome Gardening Blog</h1>
-    
-    <!-- breadcrumbs -->
-    <nav aria-label="You are here:" role="navigation">
-  	<ul class="breadcrumbs">
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./index.html">Awesome Gardening</a></li>
-    <li><span class="show-for-sr">Current: </span>Blog</li>
-  	</ul>
-	</nav>
-    <!-- header picture -->
-    <div class="media-object">
-        <div class="media-object-section">
-          {{>gardenBlogHeader}}
-        </div>  
-    </div>
+<div class="row title">
+	<div class="large-12 columns">
+		<h1>Awesome Gardening Blog</h1>
+		
+		<!-- breadcrumbs -->
+		<nav aria-label="You are here:" role="navigation">
+			<ul class="breadcrumbs">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gardening.html">Awesome Gardening</a></li>
+				<li><span class="show-for-sr">Current: </span>Blog</li>
+			</ul>
+		</nav>
+		<!-- header picture -->
+				{{>gardenBlogHeader}}
+	</div>
+</div>
 
-  </div>
-</div> 
- 
-<div class="callout large primary">
-<div class="row column text-center">
-<h2>Let the games begin</h2>
+<!-- Top message for the blog page -->
+<div class="row space10OnTop">
+	<div class="large-12 columns">
+		<div class="primary callout">
+			<h2>Let the games begin</h2>
+			<p>You have two kind of people. You either love gardening or you hate it. As you could probably guess, I absolutely love gardening. Our garden is about 700m2 and part of it is dedicated to growing fruits and vegetables. So much to do! Good thing that weeding relaxes me and my hands are nettle proof. </p>
+		</div>
+	</div>
 </div>
-</div>
+
+<!-- the actual blog posts. Picture size is 850 x 350px -->
 <div class="row" id="content">
-<div class="medium-8 columns">
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Judith Crooy</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="medium-3 columns" data-sticky-container>
-<div class="sticky" data-sticky data-anchor="content">
-<h4>Categories</h4>
-<ul>
-<li><a href="#">Skyler</a></li>
-<li><a href="#">Jesse</a></li>
-<li><a href="#">Mike</a></li>
-<li><a href="#">Holly</a></li>
-</ul>
-<h4>Authors</h4>
-<ul>
-<li><a href="#">Skyler</a></li>
-<li><a href="#">Jesse</a></li>
-<li><a href="#">Mike</a></li>
-<li><a href="#">Holly</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="row column">
-<ul class="pagination" role="navigation" aria-label="Pagination">
-<li class="disabled">Previous</li>
-<li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-<li><a href="#" aria-label="Page 2">2</a></li>
-<li><a href="#" aria-label="Page 3">3</a></li>
-<li><a href="#" aria-label="Page 4">4</a></li>
-<li class="ellipsis"></li>
-<li><a href="#" aria-label="Page 12">12</a></li>
-<li><a href="#" aria-label="Page 13">13</a></li>
-<li><a href="#" aria-label="Next page">Next</a></li>
-</ul>
-</div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-      $(document).foundation();
-    </script>
-</body>
-</html>
+	<div class="medium-8 columns">
+		
+		<div class="blog-post">
+			<h3><a name= "20160315">The greenhouse is finished! <small>15/03/2016</small></a></h3>
+			<img class="thumbnail" src=assets/img/greenhouseSlideShow4/greenhouseSlideShow4_vqgvkq_c_scale,w_900.jpg alt="Photo of Greenhouse">
+			<p>Some hobbies tend to get out of hand. Maybe gardening is one of such hobbies for me, we actually bought our house mainly because of the garden. Each year we made a lot of progress into realising our dreamgarden. New fencing, cute chickens, small fruit trees and of course our vegetable garden &hearts;! But living in the cold and rainy Netherlands, growing tomatoes and cucumbers already seems like a tropical dream. So I got itchy hands and wanted to try building my own greenhouse. We did a try-out with a small elevated tunnel greenhouse. It worked wonders! This made us decide to build a big one this time.  </p>
+			<p>From online research to design and material selection, to actual building, it took us about a year to do it. Maybe we overdid it a little bit, the final result is a greenhouse of 28 square meters :). But like you can never have too many boardshorts, I am positive that a greenhouse cannot be too big. The greenhouse is built from wood and covered with foil. We used a combination of new, reclaimed and second hand materials to keep the costs reasonable. <a href="DIYGreenhouse.html">Read the full story on how we built the Greenhouse here.</a></p>
+			<p>The plan is to grow many different sorts of tomatoes, cucumbers, some eggplants, paprika and peppers in the greenhouse this year. My big dream is to one day grow my own melon... Keep on dreaming!</p>
+		</div>
+		
+		<div class="blog-post">
+			<h3><a name="20160208">Make your own name tags <small>08/02/2016</small></a></h3>
+			<img class="thumbnail" src=assets/img/blogpost20160208/blogpost20160208_kkdegp_c_scale,w_850.jpg>
+			<p>The sun is shining, it feels almost like spring! But it is too cold to start sewing your first little seeds for the season. What to do with all this restless gardening energy? I decided to make use of it by making some nice name tags that I can use in the greenhouse. I used a wood burner and some left over pieces of wood. I got some inspiration from Pinterest on chalkboard art, which always gets me in a good mood. As a final finish I will use transparant paint to make them water and weather proof. Want to make some of these nametags yourself? Here are some tips in case you want to work with a woodburner for the first time!</p>
+			<p><ul style="list-style-type:square">
+  			<li>Start with a testpiece to see how the wood reacts to the burner and which tip you prefer to use</li>
+  			<li>Draw your design onto the wood with a pencil. This way you will already have easy to follow lines because the pencil will press into the wood (if you work with soft wood)</li>
+  			<li>Do not apply pressure onto the wood burner, the tip gets soft due to the heat and might bend</li>
+  			<li>I also used the woodburner on simple wooden clothespins, easy and cheap nametags for all your seedlings!</li>
+			</ul></p>
+		</div>
+		
+		<div class="blog-post">
+			<h3><a name= "20151214">Winter recipy with Chard <small>14/12/2015</small></a></h3>
+			<img class="thumbnail" src=assets/img/blogpost20151214/blogpost20151214_byduau_c_scale,w_850.jpg>
+			<p>Can you still eat your home-grown veggies fresh out of the garden in December? Sure you can! Chard is a very grateful and beatiful vegetable to grow in your own garden. Of course I have a pink one but this pretty leave comes in other colors such as white and orange as well. You can eat it as a salad, make very nice mashed potatoes or use them in a quiche. The white goat chees and the pink chard make a beautiful combination and the taste is amazing as well! Lovely for a family Holiday brunch. </p>
+			<div class="small-6 medium-4 large-4 columns">
+				<h5>Ingredients</h5>
+				<p><ul style="list-style-type:square">
+				<li>500 gr chard</li>
+				<li>Some smoked bacon</li>
+				<li>Union and garlic</li>
+				<li>5 pieces puff pastry</li>
+				<li>5 eggs</li>
+				<li>125 ml whipped cream</li>
+				<li>200 gr soft goat cheese</li>
+				<li>100 gr cashewnuts</li>
+				</ul></p>
+			</div>
+
+  			
+  			<div class="small-6 medium-8 large-8 columns">
+  				<h5>Instructions</h5>
+  				<p>Chop the union and garlic into small pieces. Cut the chard into nice chunks. Roughly chop the cashews. Preheat the oven on 200 degrees.
+  				<p> Put the union and garlic into a frying pan with some oil. Add the smoked bacon and fry untill the unions become transparent. Then finally add the chard for a short time untill it shrinks (not too soft though!). Take off the heat. Put the puff pastry into the oven dish you want to use. In a big bowl, whisk together the eggs, pepper and salt. Add the whipped cream and finally the soft goat cheese. Mix all well together. Put the chard and cashewnuts into the bowl as well and mix again. Then pour the filling into the dish. </p>
+  				<p>Be patient for about 40 minutes. You can check if the quiche is done by sticking a fork into the middle of the pie and when it comes out dry, the quiche is ready to be eaten!</p>
+  			</div>
+			
+		</div>
+
+		<!-- copy this code to make a new blogpost! -->
+		<!-- <div class="blog-post">
+			<h3><a name= "20160315">The greenhouse is finished! <small>15/03/2016</small></a></h3>
+			<img class="thumbnail" src="http://placehold.it/850x350">
+			<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+		</div> -->
+
+
+
+
+
+	<!-- Side menu's	 -->
+	</div>
+		<div class="medium-3 columns" data-sticky-container>
+			<div class="sticky" data-sticky data-anchor="content">
+				<h4>Blogposts</h4>
+				<ul>
+					<li><a href="#20160315">15 March 2016 - The Greenhouse</a></li>
+					<li><a href="#20160208">08 February 2016 - Nametags</a></li>
+					<li><a href="#20151214">14 December 2015 - Chard recipy</a></li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+
+	

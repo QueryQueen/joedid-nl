@@ -1,23 +1,69 @@
 @import 'settings';
 
 .title {
-	color: white;
 	text-align: center;
-    padding-top: 30vh;
     h1{
-    	font-size: 5rem;
+    	padding-top: 40vh;
+        font-size: 5rem;
+    	font-family: 'Emilys Candy', serif;
+    	color: white;
     }
+    h2{
+        padding-top: 5vh;
+        font-size: 2rem;
+        font-family: 'Emilys Candy', serif;
+        color: $pink;
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+    }
+    h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+    margin-bottom: 10px;
 }
+} 
+
+.topmenu{
+    font-size:1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 .space10OnTop{
     margin-top:10px;
 }
 
-.header {
+.homepageheader {
     background-image: url(../img/HomepageHeader/HomepageHeader.jpg);
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     border-bottom: 1px solid $dark-gray;
+    background-position: center; 
+}
+
+.aboutheader {
+    background-image: url(../img/AboutHeader/AboutHeader.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-bottom: 1px solid $dark-gray;
+    background-position: center; 
+}
+
+.homepagebanner{
+    background-image: url(../img/HomepageBanner/HomepageBanner.jpg);
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position:center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }

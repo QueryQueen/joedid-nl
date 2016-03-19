@@ -1,7 +1,23 @@
+@import 'settings';
+
 .title {
-	color: #ff9fad;
+	color: white;
+	text-align: center;
+    padding-top: 30vh;
+    h1{
+    	font-size: 5rem;
+    }
 }
 
 .space10OnTop{
     margin-top:10px;
+}
+
+.header {
+    background-image: url(../img/HomepageHeader/HomepageHeader.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-bottom: 1px solid $dark-gray;
 }

@@ -22,7 +22,6 @@
     h2 span { 
     background:#fff; 
     padding:0 10px; 
-    margin-bottom: 10px;
 }
 } 
 
@@ -42,13 +41,33 @@
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #66B98F;
     border-bottom: 1px solid $dark-gray;
     background-position: center; 
 }
 
 .aboutheader {
     background-image: url(../img/AboutHeader/AboutHeader.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-bottom: 1px solid $dark-gray;
+    background-position: center; 
+}
+
+.contactheader{
+    background-image: url(../img/contactHeader/contactHeader.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-bottom: 1px solid $dark-gray;
+    background-position: center; 
+}
+
+.gardenbookheader{
+    background-image: url(../img/gardenbookHeader/gardenbookHeader.jpg);
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
